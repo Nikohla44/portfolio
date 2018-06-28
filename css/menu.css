@@ -95,12 +95,14 @@
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 120px;
+  height: 85vh;
+  line-height: 50px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   
-  background: #ededed;
+  background: #3A3E3B;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -114,8 +116,8 @@
 #menu li
 {
   padding: 10px 0;
-  font-size: 22px;
-  color: #1E2019;
+  font-size: 29px;
+  color: #fff;
 }
 
 #menu li:hover {
@@ -134,4 +136,18 @@
 a {
     text-decoration: none;
     transition: color 0.3s ease;
+}
+
+@media screen and (max-width:1200px) {
+    #menu {
+        width: 300px;
+        height: 30vh;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #menu {
+        width: 300px;
+        height: 30vh;
+    }
 }
