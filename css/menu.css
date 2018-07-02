@@ -95,7 +95,7 @@
 #menu
 {
   position: absolute;
-  width: 120px;
+  width: 130px;
   height: 85vh;
   line-height: 50px;
   margin: -100px 0 0 -50px;
@@ -142,13 +142,15 @@ a {
 @media screen and (max-width:1200px) {
     #menu {
         width: 300px;
-        height: 30vh;
+        height: 50vh;
+        opacity: 1;
     }
 }
 
 @media screen and (max-width:800px) {
     #menu {
         width: 300px;
-        height: 30vh;
+        height: 50vh;
+        opacity: 1;
     }
 }

@@ -29,7 +29,7 @@
                 <h1>Nicolas Le Mellec</h1>
                 <h2>Developpeur Web Junior</h2>
                 <div class="line-break"></div>
-                    <p>Jeune développeur mordu de code, je suis en pleine évolution de mes compétences suite à la formation "développeur web", labellisée "Grande école du Numérique", effectuée au centre Arinfo de la Roche sur Yon.</p>
+                    <p>Jeune développeur mordu de code, je suis en pleine progression et j'acquiers de nouvelles compétences chaque jour suite à la formation "développeur web", labellisée "Grande école du Numérique", effectuée au centre Arinfo de la Roche sur Yon.</p>
                 <div class="social-icons">
                         <a href="https://twitter.com/Nikoh_la" target="_blank"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.linkedin.com/in/nicolas-le-mellec-943838147/" target="_blank"><i class="fab fa-linkedin"></i></a>

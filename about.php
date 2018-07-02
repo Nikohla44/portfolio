@@ -17,7 +17,7 @@
 <body>
 
     <?php
-            include 'menu.php';
+        include 'menu.php';
     ?>
     
 </body>

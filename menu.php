@@ -8,8 +8,8 @@
         <ul id="menu">
             <a href="index.php"><li>Accueil</li></a>
             <a href="about.php"><li>À propos</li></a>
-            <a href="#"><li>Portfolio</li></a>
-            <a href="#"><li>Contact</li></a>
+            <a href="portfolio.php"><li>Portfolio</li></a>
+            <a href="contact.php"><li>Contact</li></a>
         </ul>
     </div>
     </nav>
