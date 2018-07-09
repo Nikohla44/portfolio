@@ -119,8 +119,13 @@ h1 {
     #rig {
         display: flex;
         flex-direction: column;
-        width: 200vh;
-        margin-left: 21px;
+
+        /* margin-left: 40px; */
+    }
+
+    .rig-cell {
+        width: 190px;
+        margin-left: 70px;
     }
 
     .rig-text {

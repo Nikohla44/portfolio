@@ -140,12 +140,25 @@ a {
     transition: color 0.3s ease;
 }
 
+a:active, a:focus {
+  outline: 0;
+  border: none;
+  -moz-outline-style: none;
+}
+
 @media screen and (max-width:1200px) {
     #menu {
         width: 300px;
         height: 50vh;
         opacity: 1;
     }
+
+    a:active, a:focus {
+      outline: 0;
+      border: none;
+      -moz-outline-style: none;
+    }
+    
 }
 
 @media screen and (max-width:800px) {
@@ -154,4 +167,11 @@ a {
         height: 50vh;
         opacity: 1;
     }
+
+    a:active, a:focus {
+      outline: 0;
+      border: none;
+      -moz-outline-style: none;
+    }
+    
 }
