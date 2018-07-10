@@ -1,0 +1,135 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 70px 0px;
+    background-color: #1E2019;
+}
+
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.heading {
+    margin-top: 5%;
+    font-size: 2em;
+    color: #FBB13C;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 880px;
+    height: 100%;
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.formElement {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.message {
+    width: 100%;
+}
+
+.message textarea {
+    height: 150px;
+}
+
+.star {
+    color: #6b0f1a;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 15px;
+    color: #f40000;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+#contact-form input [type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.button1 {
+    border: 1px solid #ddd;
+    background: #ffa500;
+    color: #fff;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover {
+    background: #1E2019;
+    border-color: #ffa500;
+}
+
+.thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+@media screen and (max-width:800px) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .formElement {
+        width: 100%;
+    }
+
+    .heading {
+        font-size: 1em;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .container {
+        margin-top: 10px;
+    }
+    
+    .heading {
+        font-size: 0.8em;
+    }
+}
