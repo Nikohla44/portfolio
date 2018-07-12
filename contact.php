@@ -6,11 +6,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
 
     <!-- LINK -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/contact.css">
     <link rel="stylesheet" type="text/css" href="css/menu.css">
 
@@ -28,11 +27,11 @@
 
     <div class="container">
 
-        <div class="heading">
-        <h1>CONTACTEZ-MOI</h1>
+        <div class="title">
+            <h1>CONTACTEZ-MOI</h1>
         </div>
 
-            <form id="contact-form" method="post" action="" role="form">
+            <form id="contact-form" method="post" action="contact-envoi.php" role="form">
                 
                 <div class="form-row">
                     <div class="formElement">

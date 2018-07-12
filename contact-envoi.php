@@ -2,7 +2,7 @@
 
   //Variables
   $array = array("firstname" => "", "name" => "", "email" => "", "phone" => "", "message" => "", "firstnameError" => "", "nameError" => "", "emailError" => "", "phoneError" => "", "messageError" => "", "isSuccess" => false);
-  $emailTo = "lemellec@live.fr";
+  $emailTo = "contact@nicolas-lemellec.fr";
 
   //Envoi des données input dans le serveurs
   if ($_SERVER["REQUEST_METHOD"] == "POST") {

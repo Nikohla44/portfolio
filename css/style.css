@@ -129,7 +129,7 @@ h1 {
     }
 
     .rig-text {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 
@@ -379,4 +379,18 @@ h1 {
         padding: 5%;
         overflow: auto;
     }
+}
+
+
+/*Page en construction*/
+.avertissement {
+    text-align: center;
+    color: #f0f0f0;
+    font-size: 2.5em;
+    margin-top: 200px;
+}
+
+.avertissement i {
+    text-decoration: underline;
+    color: #FBB13C;
 }
