@@ -7,9 +7,8 @@
     margin-top: 80px;
 }
 
-.subTitle h2 {
+.subTitle {
     font-weight: 50;
-    letter-spacing: 6;
     font-size: 2em;
     color: #FBB13C;
     text-align: center;
@@ -24,7 +23,6 @@ h2 {
     width: 60%;
     margin: 20px auto;
     line-height: 150%;
-    /* text-align: center; */
     color: #fff;
     font-size: 1.5em;
 }
@@ -40,7 +38,6 @@ h2 {
     color: #000;
     width: 10%;
     height: 40px;
-    /* margin: 0 auto; */
     font-size: 1em;
     text-transform: uppercase;
     border-radius: 5px;
@@ -51,5 +48,41 @@ h2 {
     background: #1E2019;
     border-color: #ffa500;
     color: #fff;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;  
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    color: #1E2019;
+}
+
+.skillsContainer {
+    display: flex;
+    width: 50%;
+    height: 250px;
+    flex-direction: column;
+    background: #FFFCE8;
+}
+
+.skillsContainer svg {
+    width: 60px;
+    height: 60px;
+}
+
+.skillsContainer img {
+    width: 60px;
+    height: 60px;
+}
+
+.skillsIcon {
+    margin: auto;
 }
  
