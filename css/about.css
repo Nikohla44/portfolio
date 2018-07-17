@@ -85,4 +85,45 @@ h3 {
 .skillsIcon {
     margin: auto;
 }
+
+@media screen and (max-width:800px) {
+    .aboutContainer {
+        margin-top: 100px;
+    }
+    .divider {
+        margin: auto;
+    }
+    .subTitle {
+        font-weight: 50;
+        font-size: 1.2em;
+    }
+    .myPresentation p {
+        width: 90%;
+        line-height: 100%;
+        color: #fff;
+        font-size: 1em;
+    }
+    .button2 {
+        width: 30%;
+        height: 40px;
+        font-size: 1em;
+        margin-bottom: 30px;
+    }
+    h3 {
+        font-weight: bold;
+    }
+    .skills {
+        flex-direction: column;
+    }
+    .skillsContainer {
+        width: 95%;
+        margin: auto;
+        margin-bottom: 10px;
+        height: 170px;
+    }
+    .skillsIcon {
+        display: flex;
+        justify-content: center;
+    }
+}
  
