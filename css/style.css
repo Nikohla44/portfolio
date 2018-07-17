@@ -19,6 +19,17 @@ h1 {
     font-weight: 100;
 }
 
+/*Footer*/
+#footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    line-height: 5px;
+    text-align: center;
+    color: #955d04;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9em;
+}
 
 /*Gallery image*/
 #rig {

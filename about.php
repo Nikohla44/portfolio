@@ -38,7 +38,7 @@
             <p>Fin 2017, j’ai commencé pendant mon temps libre  une autoformation sur les bases du développement web avec OpenClassrooms. Je me suis, évidemment, très vite passionné par le code de programmation et j’ai pris la décision de faire de cette passion un métier, j’ai donc passé les sélections pour le centre de formation Arinfo et intégré en février 2018 la formation développeur web , labellisée « Grande école du Numérique ».</p>
             <p>En 6 mois de formation intensive, l’ascension de mes connaissances et de mes  compétences a été fulgurante.</p>
             <p>Je suis passionné, force de proposition, autodidacte et je continue de me former sur de nouvelles technologies innovantes.</p>
-            <p>Aujourd’hui je souhaite mettre mes compétences au sein d’une équipe dynamique afin de continuer d’évoluer, d’apprendre et de m’améliorer.</p>
+            <p>Aujourd’hui je souhaite mettre mes compétences au profit d’une équipe dynamique afin de continuer d’évoluer, d’apprendre et de m’améliorer.</p>
         </div>
 
         <div class="cv">
@@ -135,8 +135,11 @@
             </div>
         </div>
 
-
     </div>
+
+    <?php
+        include 'footer.php';
+    ?>
     
 </body>
 

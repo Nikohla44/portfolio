@@ -76,6 +76,10 @@
         
     </div>
 
+    <?php
+       include 'footer.php';
+    ?>
+
 
 
     <!-- SCRIPT -->

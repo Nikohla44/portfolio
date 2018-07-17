@@ -29,6 +29,10 @@
         <p>N'hésitez pas à me contacter par mail à l'adresse suivante :</p>
         <p><i>contact@nicolas-lemellec.fr</i></p>
     </div>
+
+    <?php
+        include 'footer.php';
+    ?>
     
 </body>
 
